@@ -1,0 +1,3 @@
+c22_questions 
+ -> implement random traces and random traces with locality
+ -> do q 5 (plot.py)
