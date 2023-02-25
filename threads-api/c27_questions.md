@@ -255,7 +255,6 @@ correct?
 8. Now look at a slightly modified version of the code, which is found in
 main-signal-cv.c. This version uses a condition variable to do the signaling (and associated lock). Why is this code preferred to the previous
 version? Is it correctness, or performance, or both?
-    - helgrind reports no errors
     - The code is more correct since there are no races
     - The code also performs better since we're not spin waiting anymore
     - Code:
@@ -316,3 +315,6 @@ version? Is it correctness, or performance, or both?
         return 0;
     }
     ```
+
+1. Once again run helgrind on main-signal-cv. Does it report any errors?
+    - helgrind reports no errors
