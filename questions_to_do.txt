@@ -1,3 +1,7 @@
 c22_questions 
  -> implement random traces and random traces with locality
  -> do q 5 (plot.py)
+
+ c29_questions
+ -> time performance for question 4
+ -> do 5 and 6 for B-trees
